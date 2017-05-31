@@ -1,0 +1,75 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+body {
+   background-color: aliceblue;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+.biografi {
+   margin: auto;
+    width: 60%;
+    border: 2px dotted #8B0000;
+    padding: 5px;
+}
+.summary {
+   margin: auto;
+    width: 60%;
+    border: 2px dotted #8b0000;
+    padding: 5px;
+}
+h1 { color: black;
+    margin-left: 20px;
+}
+h2 {
+   color: black;
+   margin-left: 20px;
+}
+p {
+    color: navy;
+    text-align: center;
+    } 
+a:link {
+    color: blue; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
