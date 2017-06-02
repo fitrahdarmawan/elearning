@@ -71,6 +71,6 @@ else
 win2.document.write("Question "+i+"="+correctchoices[i]+"<br>")
 }
 win2.document.write('</center></font>')
-win2.document.write("<h5>Note: The solutions in red are the ones to the questions you had incorrectly answered.</h5><p align='center'><small><a href='http://www.javascriptkit.com' target='_new'>JavaScript Kit quiz script</a></small>")
+win2.document.write("<h5>Note: Alternatif jawaban berwarna merah menunjukkan jawaban Anda yang salah.</h5><p align='center'><small><a href='http://bintikmedia.co.id' target='_new'>bintikmedia</a></small>")
 win2.document.close()
 }
