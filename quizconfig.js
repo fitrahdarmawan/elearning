@@ -1,9 +1,4 @@
-/***********************************************
-* JavaScriptKit.com Multiple Choice Quiz Script (http://www.javascriptkit.com)
-* Copyright 2003 JavaScript Kit- http://www.javascriptkit.com
-* This notice and footnote must stay intact for use
-* Visit JavaScript Kit (http://www.javascriptkit.com/) for full source code
-***********************************************/
+
 
 //Enter total number of questions:
 var totalquestions=10
@@ -21,7 +16,7 @@ correctchoices[8]='d'
 correctchoices[9]='b'
 correctchoices[10]='a'
 
-/////Don't edit beyond here//////////////////////////
+
 
 function gradeit(){
 var incorrect=null
@@ -64,11 +59,11 @@ if (i==incorrect[temp])
 wrong=1
 }
 if (wrong==1){
-win2.document.write("Question "+i+"="+correctchoices[i].fontcolor("red")+"<br>")
+win2.document.write("Soal Nomor "+i+"="+correctchoices[i].fontcolor("red")+"<br>")
 wrong=0
 }
 else
-win2.document.write("Question "+i+"="+correctchoices[i]+"<br>")
+win2.document.write("Soal Nomor "+i+"="+correctchoices[i]+"<br>")
 }
 win2.document.write('</center></font>')
 win2.document.write("<h5>Note: Alternatif jawaban berwarna merah menunjukkan jawaban Anda yang salah.</h5><p align='center'><small><a href='http://bintikmedia.co.id' target='_new'>bintikmedia</a></small>")
