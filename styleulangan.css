@@ -73,3 +73,6 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+footer { 
+    display: block;
+}
